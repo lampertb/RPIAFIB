@@ -13,6 +13,10 @@ To install run
 
 sudo sh ./install.sh
 
+Run software:
+cd Software
+sudo ./execute_afib_detect
+
 Todo:
 Software:
 -Improve ECG Capture code
