@@ -1,7 +1,7 @@
 # RPIAFIB
 AFIB Detection using Raspberry Pi Compute Module
 
-This is a project created by Yifan Ge and Ben Lampert for the CS241 Embedded Workshop class. The intention is to create an open source AFIB detection wearable which can be used to diagnose patients with the condition.
+This is a project created by Yifan Ge and Ben Lampert for the CS241 Embedded Workshop class(http://web.stanford.edu/class/cs241/). The intention is to create an open source AFIB detection wearable which can be used to diagnose patients with the condition.
 
 
 ![alt tag](https://github.com/lampertb/RPIAFIB/blob/master/PCB/BoardFront.png)
