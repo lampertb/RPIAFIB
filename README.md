@@ -8,6 +8,7 @@ This is a project created by Yifan Ge and Ben Lampert for the CS241 Embedded Wor
 ![alt tag](https://github.com/lampertb/RPIAFIB/blob/master/PCB/BoardBack.png)
 
 Please reference the instructable for more information on assembling the board.
+http://www.instructables.com/id/rPI-Atrial-Fibrillation-Detection-Board/
 
 To install run
 
