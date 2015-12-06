@@ -3,8 +3,10 @@
 #It also toggles the LED's to indicate that the board is running
 
 #Launch program
+/home/pi/Software/bin/execute_afib_detect &
 
 #Toggle LED at GPIO 0 every second
+#Status LED
 gpio -g mode 0 out
 while [ 1 ]
 do
