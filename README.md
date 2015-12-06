@@ -9,6 +9,10 @@ This is a project created by Yifan Ge and Ben Lampert for the CS241 Embedded Wor
 
 Please reference the instructable for more information on assembling the board.
 
+To install run
+
+sudo sh ./install.sh
+
 Todo:
 Software:
 -Improve ECG Capture code

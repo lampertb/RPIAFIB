@@ -20,19 +20,22 @@ do_stop () {
         reboot -d -f -i
 }
 
+# Carry out specific functions when asked to by the system
 case "$1" in
   start)
-        # No-op
-        ;;
-  restart|reload|force-reload)
-        echo "Error: argument '$1' not supported" >&2
-        exit 3
-        ;;
+    echo "Starting script AFIB"
+	sh /home/pi/RPIAFIB/Bootscript/run.sh &
+    ;;
   stop)
-        do_stop
-        ;;
+    echo "Stopping script AFIB"
+#	killall python
+#	killall sh
+    ;;
   *)
-        echo "Usage: $0 start|stop" >&2
-        exit 3
-        ;;
+    echo "Usage: /etc/init.d/AFIBBoot {start|stop}"
+    exit 1
+    ;;
 esac
+
+exit 0
+
