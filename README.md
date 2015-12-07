@@ -25,4 +25,4 @@ Software:
 Hardware:
 -Lipo charger circuit does not allow for the board to be powered while charging the LED, need to find a solution for this. Integrated charger?
 
-
+USE AT YOUR OWN RISK: This project involves ECG measurements which can be dangerous if not done correctly. It is your responsibility to evaluate your own medical and physical condition, or that of your clients, and to independently determine whether to perform, use or adapt any of the information or content on this instructable. By voluntarily undertaking the project displayed on this website, you assume the risk of any resulting injury.
